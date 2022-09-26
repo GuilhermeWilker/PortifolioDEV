@@ -103,6 +103,11 @@
   .projeto img {
     width: 250px;
   }
+  .desc-projeto p {
+    width: 350px;
+    margin-bottom: 35px;
+    font-size: 14px;
+  }
 
   footer {
     display: none;
