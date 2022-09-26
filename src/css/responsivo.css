@@ -99,6 +99,7 @@
 
   .projeto {
     flex-direction: column-reverse;
+    margin: 80px 0;
   }
   .projeto img {
     width: 250px;
