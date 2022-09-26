@@ -1,0 +1,327 @@
+body {
+  background-color: #f0e7db;
+  font-family: "Inconsolata", monospace;
+}
+
+.open {
+  display: block;
+}
+
+.menu-btn {
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+
+.menu-btn button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* SLIDER */
+
+.slider {
+  margin-top: 20px;
+  width: 538px;
+  height: 194px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 400%;
+  height: 194px;
+  display: flex;
+}
+
+.slider input {
+  display: none;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+  transition: 0.8s ease-out;
+}
+
+.slide img {
+  width: 538px;
+}
+
+.manual-navigation {
+  position: absolute;
+  width: 538px;
+  margin-top: -22px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid #319795;
+  padding: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background-color: #35bbb9;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+
+/* ------HEADER------ */
+header {
+  background-color: #319795;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header h2 a {
+  /* margin-left: 371px; */
+  color: white;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 20px;
+}
+nav ul li a {
+  color: white;
+  transition: 0.2s;
+}
+nav ul li a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+/* -------MAIN------- */
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 538px;
+  align-items: center;
+  justify-content: center;
+}
+
+.projeto-btn {
+  background-color: #319795;
+  border: none;
+  border-radius: 12px;
+  margin-top: 33px;
+  padding: 19px 70px;
+  color: white;
+}
+
+.projeto-btn .arrow {
+  margin-left: 15px;
+}
+
+/* -------HERO------- */
+.hero {
+  width: 538px;
+  display: flex;
+
+  margin-top: 30px;
+  align-items: center;
+}
+
+.hero .apresentacao {
+  padding: 0 60px 0 18px;
+}
+
+.hero .apresentacao h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+.hero .apresentacao p {
+  font-size: 15px;
+}
+
+/* -------SOBRE------- */
+.sobre {
+  margin-top: 60px;
+  margin-left: 15px;
+}
+
+.sobre h3 {
+  font-size: 22px;
+  font-weight: bold;
+
+  margin-bottom: 13px;
+  text-decoration: underline;
+}
+
+.sobre p {
+  padding-bottom: 20px;
+}
+
+/* -------HABILIDADES------- */
+.habilidades {
+  width: 538px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.habilidades h3 {
+  font-size: 22px;
+  font-weight: bold;
+
+  margin-bottom: 13px;
+  text-decoration: underline;
+}
+
+.habilidades .hab-icones {
+  display: flex;
+  margin-top: 20px;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.habilidades .hab-icones img {
+  width: 55px;
+  height: 81px;
+}
+.habilidades .hab-icones img.j {
+  width: 70px;
+  height: 82;
+}
+.habilidades .hab-icones img.h {
+  width: 66px;
+  height: 82px;
+}
+
+/* -------CONTATO------- */
+.contato {
+  width: 538px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.contato h3 {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contato .redes img {
+  width: 25px;
+}
+
+.contato .redes .rede {
+  display: flex;
+  margin: 25px 0;
+  align-items: center;
+}
+
+.contato .redes .rede p {
+  padding-left: 20px;
+}
+.contato .redes .rede p a:hover {
+  color: #319795;
+}
+
+.container-contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-contato .redes {
+  margin-top: -140px;
+}
+
+form label {
+  font-family: "Inconsolata";
+  margin-bottom: 10px;
+}
+
+form input#email {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+
+  width: 240px;
+}
+
+form textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+
+  width: 240px;
+}
+
+form input#submit {
+  padding: 10px;
+  background-color: #319795;
+  color: white;
+  border: 1px solid black;
+  margin-left: 180px;
+
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+form input#submit:hover {
+  background-color: #35bbb9;
+}
+
+/* -------PROJETOS------- */
+.projeto {
+  margin-top: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projeto img {
+  margin-left: 20px;
+}
+.desc-projeto h3 {
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+.desc-projeto p {
+  width: 350px;
+  margin-bottom: 35px;
+
+  font-size: 16px;
+}
+
+.desc-projeto a {
+  color: white;
+  background-color: #319795;
+  border-radius: 12px;
+  padding: 9px 40px;
+
+  transition: 0.2s;
+}
+.desc-projeto a:hover {
+  background-color: #35bbb9;
+}
+
+.pad-projetos {
+  margin-top: 100px;
+}
+
+/* -------FOOTER------- */
+footer {
+  margin: 50px 0;
+}

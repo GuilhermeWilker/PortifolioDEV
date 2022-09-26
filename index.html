@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guilherme Wilker</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/fonts.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+    <script defer src="src/script/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2><a href="index.html">Guilherme Wilker</a></h2>
+      <nav class="nav">
+        <div class="menu-btn">
+          <button class="menu-icon" onclick="menuAbrir()">
+            <img src="src/images/cardapio.png" />
+          </button>
+        </div>
+        <ul>
+          <li><a href="projetos.html">projetos</a></li>
+          <li>
+            <a href="https://github.com/GuilhermeWilker" target="_blank"
+              >github</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+
+          <!-- imagens -->
+          <div class="slide first">
+            <img src="src/images/banner1.png" />
+          </div>
+          <div class="slide">
+            <img src="src/images/banner2.png" />
+          </div>
+
+          <!-- NAV auto -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+          </div>
+        </div>
+
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+        </div>
+      </div>
+
+      <button class="projeto-btn" onclick="redirecionarPageProjeto()">
+        Saiba mais sobre meus projetos clicando aqui!
+        <img src="src/images/arrow.png" class="arrow" />
+      </button>
+
+      <div class="hero">
+        <div class="apresentacao">
+          <h3>Guilherme Wilker</h3>
+          <p>Desenvolvedor frontend / Designer / Músico</p>
+        </div>
+        <div class="img-me">
+          <img src="src/images/perfil.png" alt="foto de perfil" />
+        </div>
+      </div>
+
+      <article class="sobre">
+        <h3>Sobre</h3>
+        <p>
+          Sou um desenvolvedor front-end apaixonado em criar sites e aplicações
+          web bonitas e otimizadas. A tecnologia sempre foi um grande interesse
+          na minha vida, e combinar tecnologia web moderna com atenção aos
+          detalhes é a melhor maneira de garantir um site moderno e bonito.
+        </p>
+        <p>
+          Procuro sempre aprimorar a usabilidade e o desempenho de cada projeto,
+          aprendendo novas tecnologias para me tornar um bom programador a cada
+          dia. Em meu tempo livre curto ler, assistir NBA e programar.
+        </p>
+      </article>
+
+      <article class="habilidades">
+        <h3>Habilidades</h3>
+        <div class="hab-icones">
+          <img src="src/images/html.png" alt="html" class="h" />
+          <img src="src/images/css.png" alt="css" class="h" />
+          <img src="src/images/javascript.png" alt="javascript" class="j" />
+          <img src="src/images/sass.png" alt="sass" />
+          <img src="src/images/figma.png" alt="figma" />
+        </div>
+      </article>
+
+      <article class="contato">
+        <h3>On the web</h3>
+        <div class="container-contato">
+          <div class="redes">
+            <div class="rede">
+              <img src="src/images/github.png" />
+              <p>
+                <a href="https://github.com/GuilhermeWilker" target="_blank"
+                  >@GuilhermeWilker</a
+                >
+              </p>
+            </div>
+
+            <div class="rede">
+              <img src="src/images/linkedin.png" />
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/guilherme-wilker-3a8294189/"
+                  target="_blank"
+                  >@guilherme-wilker</a
+                >
+              </p>
+            </div>
+
+            <div class="rede">
+              <img src="src/images/whatsapp.png" />
+              <p>
+                <a href="">+11 93618-66722</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="form">
+            <form action="">
+              <label for="email">*Email:</label><br /><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+              /><br /><br />
+
+              <label for="mensaem">*Mensagem:</label><br /><br />
+              <textarea
+                name="mensagem"
+                id="mensagem"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+              <br /><br />
+
+              <input type="submit" value="Enviar" id="submit" />
+            </form>
+          </div>
+        </div>
+      </article>
+
+      <footer>
+        <p>© 2022 Guilherme Wilker. Todos os direitos reservados.</p>
+      </footer>
+    </main>
+  </body>
+</html>
