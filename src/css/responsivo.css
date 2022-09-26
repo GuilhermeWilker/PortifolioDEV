@@ -99,13 +99,13 @@
 
   .projeto {
     flex-direction: column-reverse;
-    margin: 80px 0;
+    margin: 50px 0;
   }
   .projeto img {
     width: 250px;
   }
   .desc-projeto p {
-    width: 350px;
+    width: 310px;
     margin-bottom: 35px;
     font-size: 14px;
   }
