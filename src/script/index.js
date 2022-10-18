@@ -2,7 +2,7 @@ let count = 1;
 document.getElementById("radio1").checked = true;
 setInterval(function () {
   slideImg();
-}, 4500);
+}, 2500);
 
 function slideImg() {
   count++;
