@@ -313,7 +313,8 @@ form input#submit:hover {
 
 /* -------PROJETOS------- */
 .projeto {
-  margin-top: 48px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
   display: flex;
   align-items: center;
@@ -347,7 +348,8 @@ form input#submit:hover {
 }
 
 .pad-projetos {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* -------FOOTER------- */
