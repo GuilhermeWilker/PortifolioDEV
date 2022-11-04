@@ -81,6 +81,19 @@
     margin-left: 0px;
   }
 
+  .habilidades .hab-icones {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 300px;
+  }
+
+  .habilidades .hab-icones img {
+    margin: 5px 5px;
+  }
+
   .contato {
     width: 300px;
     margin-left: 0px;
