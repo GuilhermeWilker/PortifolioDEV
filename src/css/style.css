@@ -219,6 +219,7 @@ main {
 .habilidades .hab-icones {
   display: flex;
   margin-top: 20px;
+  flex-wrap: wrap;
 
   align-items: center;
   justify-content: space-between;
