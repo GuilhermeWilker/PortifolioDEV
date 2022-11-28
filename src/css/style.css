@@ -211,6 +211,7 @@ main {
 .habilidades h3 {
   font-size: 22px;
   font-weight: bold;
+  max-width: 400px;
 
   margin-bottom: 13px;
   text-decoration: underline;
@@ -218,19 +219,27 @@ main {
 
 .habilidades .hab-icones {
   display: flex;
+  gap: 15px;
   margin-top: 20px;
   flex-wrap: wrap;
 
   align-items: center;
-  justify-content: space-between;
 }
 .habilidades .hab-icones img {
   width: 55px;
   height: 81px;
+
+  margin-left: 5px;
 }
 .habilidades .hab-icones img.j {
   width: 70px;
   height: 82;
+}
+.habilidades .hab-icones img.sql {
+  width: 60px;
+  height: 60px;
+
+  margin-left: 25px;
 }
 .habilidades .hab-icones img.h {
   width: 66px;
