@@ -1,7 +1,7 @@
 # PortifolioDEV
 
 <p align="center">
-<img width="600px" src='./src/images/meu-protifolio.png' />
+<img src='./src/images/meu-protifolio.png' />
 </p>
 Meu portifólio de projetos
 
